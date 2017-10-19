@@ -1,0 +1,45 @@
+ body {
+     font-family: sans-serif;
+ }
+
+.biography {
+    width: 75%;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 1.8;
+}
+.summary {
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+.summary-table {
+    border: 1px solid gray;
+    background-color: #f8f9fa
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+}
+
+h1 span {
+    color: orange
+}
+
+h2 :before {
+    content: "Hola"
+}
+
+.gato1 {
+    width: 289px; height: 174px;
+    background: url('../assets/imagen/css_sprites.png') -10px -10px;
+}
+.gato2 {
+    width: 275px; height: 183px;
+    background: url('../assets/imagen/css_sprites.png') -10px -204px;
+}
